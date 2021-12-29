@@ -5,3 +5,5 @@ Deneysel amaçlı olarak Go dilini öğrenmek üzerine geliştirilmiş basit bir
 Localde geliştirme yapmak için `go run .`
 
 Docker için `docker-compose -f docker-compose.yml up ` komutlarıyla uygulamayı ayağa kaldırabilirsiniz.
+
+localhost:8080 adresinde proje ayağa kalkmış olacaktır.
