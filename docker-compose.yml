@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  search-api:
+    container_name: hepsiburada-seach-api
+    image: hepsiburada-seach-api
+    build:
+      context: .
+      target: development
+    volumes:
+      - .:/search-api
+    ports:
+      - 8080:8080
